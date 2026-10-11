@@ -1,0 +1,10 @@
+node_modules
+build
+dist
+.git
+.trae
+.log
+.figma
+app/.env
+app/.env.*
+!app/.env.example

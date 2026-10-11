@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "framework": "vite",
+  "installCommand": "npm --prefix app install",
+  "buildCommand": "npm --prefix app run build",
+  "outputDirectory": "app/dist",
+  "functions": {
+    "api/glm/chat.ts": { "maxDuration": 30 },
+    "api/glm/images.ts": { "maxDuration": 60 }
+  }
+}
